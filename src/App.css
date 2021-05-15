@@ -12,6 +12,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+body {
+  background-color:black;
+}
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +38,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+.slide img{
+  height:500px;
+  width:1365px;
+  align-items: center;
+}
+
+.intro {
+  border:solid black;
+  margin-top:100px;
+ margin-left:80px;
+ margin-right:80px;
+ padding:0px;
+  text-align: center;
+  background-color: gray;
+}
+h2 {
+  color:white;
+  font-weight:bold;
+}
+.description {
+  font-weight:inherit;
 }
